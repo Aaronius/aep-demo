@@ -169,6 +169,7 @@ function App() {
             value={reviewText}
             onChange={setReviewText}
             isDisabled={!selectedProductSku}
+            minWidth="size-4600"
           />
           <Button
             id="submitReviewButton"
