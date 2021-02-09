@@ -114,7 +114,7 @@ function App() {
   }, [selectedProductSku, reviewerId, selectedRating, reviewText]);
 
   return (
-    <Provider theme={defaultTheme} colorScheme="light" height="100vh">
+    <Provider theme={defaultTheme} colorScheme="light" minHeight="100vh">
       <View padding="size-250">
         <Picker
           label="Product"
